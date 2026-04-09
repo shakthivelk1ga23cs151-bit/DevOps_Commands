@@ -22,4 +22,29 @@ $ git commit -m "add two files"
 $ git status
 
 
+-----------------------------------------------------
+-----------------------------------------------------
+
+Program 1B
+
+$ mkdir Program1B
+$ cd Program1B
+$ git init
+$ touch f1.txt
+You can add the content (Option)
+$ git add f1.txt
+$ git commit -m "created file in main(master)"
+$ git checkout -b feature-branch
+$ git branch
+$ touch p1.txt
+$ git status
+$ git add p1.txt
+$ git commit -m "Created file in feature branch"
+$ git branch
+$ git checkout main or git checkout master
+$ git merge feature-branch
+
+
+
+
 
