@@ -1,0 +1,24 @@
+$ mkdir Program1a
+$ cd Program1a
+$ git init
+$ touch file1.txt
+Use gedit and add some content
+$ git status
+$ git add file1.txt
+$ git commit -m "Create file1.txt"
+$ git status
+Use gedit and do some changes in the file
+$ git status
+$ git add file1.txt
+$ git commit -m "Made changes in file1.txt"
+--------------------------------------------------------
+You can also add multiple  file in the git add 
+Example
+$ touch f2.txt f3.txt
+$ git status
+$ git add f2.txt f3.txt
+$ git commit -m "add two files"
+$ git status
+
+
+
