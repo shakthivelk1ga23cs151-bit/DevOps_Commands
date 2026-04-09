@@ -1,2 +1,5 @@
+Use the below command before starting the  program
 git config --global user.name "userName"
 git config --global user.email "email used for the GitHub account"
+
+Important note Understand the all the command the your are using
