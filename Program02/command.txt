@@ -1,0 +1,36 @@
+Program 02A
+$ mkdir Program2A
+$ cd Program2A
+$ git init
+$ touch f1.txt
+Add the content to f1.txt using gedit
+$ git add f1.txt
+$ git commit -m "Save the file"
+$ git status
+change the content in f1.txt using gedit
+$ git stash save "Saved the changes in Local"
+$ git stash list
+$ git checkout -b star
+$ touch f2.txt
+$ git add f2.txt
+$ git commit -m "File in the star"
+$ git status
+Add the content to f2.txt using gedit
+$ git stash save "Saved the changes in Local of star"
+$ git stash list
+$ git stash drop stash@{0}
+$ git stash list
+$ git stash apply
+$ git stash list
+$ git stash clear 
+$ git stash list
+--------------------------------------------------------------
+--------------------------------------------------------------
+Program 02B
+$ git clone https://github.com/shakthivelk1ga23cs151-bit/Program_2B.git(Repo HTTPS Link)
+$ ls
+Program1B/  Program1a/  Program2A/  **Program_2B/**(Clone Repo)
+$ cd Program_2B/
+$ ls
+README.md
+$ cat README.md
