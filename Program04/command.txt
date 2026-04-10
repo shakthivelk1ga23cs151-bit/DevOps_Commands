@@ -1,0 +1,47 @@
+Program4A
+$ mkdir Pro4A
+$ cd Pro4A
+$ git init
+$ touch f1.txt f2.txt
+$ git add f1.txt f2.txt
+$ git commit -m "Created files in main"
+$ git remote add origin https://github.com/shakthivelk1ga23cs151-bit/Pro_4A.git(Repo HTTPS Link)
+$ git branch -M main
+$ git push origin main
+https//GitHub.com/"(username) press enter
+GitHub password (GitHub token) press enter
+$ git tag vi.0 HEAD
+$ git tag
+$ git push origin vi.0
+https//GitHub.com/"(username) press enter
+GitHub password (GitHub token) press enter
+------------------------------------------------------------------
+------------------------------------------------------------------
+Program4B
+$ mkdir Pro04B
+$ cd Pro04B
+$ git init
+$ touch f1.txt f2.txt
+$ git add f1.txt f2.txt
+$ git commit -m "Created files in main"
+$ git checkout -b star
+$ touch p1.txt
+$ git add p1.txt
+$ git commit -m "Create p1.txt in star"
+$ touch p2.txt
+$ git add p2.txt
+$ git commit -m "Create p2.txt in star"
+$ git branch
+$ git checkout main
+$ git log
+$ git checkout star
+$ git log
+$ git checkout main
+$ git cherry-pick ae904a28(commit id-1) a9aae1704(commit id-2) 
+[Syntax for cherry-pick
+$ git cherry-pick commit id-1 commit id-2 ..... commit id-n]
+$ git remote add origin https://github.com/shakthivelk1ga23cs151-bit/Pro_4B.git(Repo HTTPS Link)
+$ git branch -M main
+$ git push origin main
+https//GitHub.com/"(username) press enter
+GitHub password (GitHub token) press enter
