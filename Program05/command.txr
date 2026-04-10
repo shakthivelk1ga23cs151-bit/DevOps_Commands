@@ -1,0 +1,27 @@
+Program5A
+$ mkdir Pro5A
+$ cd Pro5A
+$ git init
+$ touch p1.txt
+$ git add p1.txt
+$ git commit -m "Created file in main"
+$ touch p2.txt
+$ git add p2.txt
+$ git commit -m "Created p2.txt in main"
+$ git log
+$ git show 677252a(commit id)
+$ git show fe977e7aef7255c2dee0e20f1af(commit id)
+------------------------------------------------------------------
+------------------------------------------------------------------
+Program5B
+$ mkdir Pro5B
+$ cd Pro5B
+$ git init
+$ touch file1.txt
+$ git add file1.txt
+$ git commit -m "file1 in main"
+$ touch file2.txt
+$ git add file2.txt
+$ git commit -m "file2 in main"
+$ git log --author="Shakthivelk24" --since="2026-04-02" --until="2026-04-10"
+[Syntax : $ git log --author="username" --since="Starting date" --until="Ending date" ]
