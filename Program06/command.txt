@@ -1,0 +1,42 @@
+Program06A
+$ mkdir Pro06A
+$ cd Pro06A
+$ git init
+$ touch f1.txt
+Add the content to f1.txt using gedit
+$ git add f1.txt
+$ git commit -m "Created f1.txt"
+$ touch f2.txt
+$ git add f2.txt
+$ git commit -m "Created f2.txt"
+$ touch f3.txt
+$ git add f3.txt
+$ git commit -m "Created f3.txt"
+$ touch f4.txt
+$ git add f4.txt
+$ git commit -m "Created f4.txt"
+$ touch f5.txt
+$ git add f5.txt
+$ git commit -m "Created f5.txt"
+$ git log -n 5
+$ git log -n 5 --oneline
+$ git revert 4d10cd2986220(commit-id)
+
+--------------------------------------------------------------
+--------------------------------------------------------------
+Program06B
+$ mkdir Pro06B
+$ cd Pro06B
+$ git init
+$ touch f1.txt
+$ git add f1.txt
+$ git commit -m "Create f1.txt"
+Add the content to f1.txt using gedit
+$ git config --global alias.st status
+$ git st
+$ git add f1.txt
+$ git commit -m "Added content to f1.txt"
+$ git config --global alias.lg "log --oneline --graph"
+$ git lg
+
+
